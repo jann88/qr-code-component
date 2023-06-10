@@ -7,17 +7,22 @@ Your challenge is to build out this QR code component and get it looking as clos
 ## Table of contents
 
 - [Overview](#overview)
-  https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H.
+  Complete responsive layout of a qr component challenge.
 
   - [Screenshot](#screenshot)
 
   - [Links](#links)
-    Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+    Live Site URL:
+    [https://exquisite-yeot-e2fa85.netlify.app]
 
 - [My process](#my-process)
   Get the markup written out and style after.
 
-  - [Built with](#built-with) - Semantic HTML5 markup - CSS custom properties - CSS Grid - Mobile-first workflow
+  - [Built with](#built-with)
+  - Semantic HTML5 markup
+  - CSS custom properties
+  - CSS Grid
+  - Mobile-first workflow
 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
