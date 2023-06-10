@@ -1,0 +1,63 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%); 
+    --Grayish-blue: hsl(220, 15%, 55%); 
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --ff-family: 'Outfit';
+    --ff-regular: 400;
+    --ff-bold: 700;
+}
+
+*, *::before,*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+svg, img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: var(--Light-gray);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    line-height: 1.5;
+    margin: 0;
+}
+.card__container {
+    background-color: var(--White);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: grid; 
+    --content-padding: 1rem; 
+    --content-spacing: 1rem;
+    --content-margin: 1rem;
+    max-width: 400px;
+}
+
+.card__img {
+    padding: var(--content-padding);
+    border-radius: 1.5rem;
+    height: 400px;
+}
+.description {
+    padding: var(--content-padding);
+    text-align: center; 
+    display: grid;
+    margin-top: -.5rem;   
+}
+.title{
+    color: var(--Dark-blue);
+    font-size: 1.5rem;
+    margin-bottom: var(--content-margin);
+}
+.card__info {
+    color: var(--Grayish-blue);
+    margin-bottom: var(--content-margin);
+}
